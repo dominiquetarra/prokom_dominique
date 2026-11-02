@@ -1,0 +1,23 @@
+gunung = ['merbabu' , 'bromo' , 'semeru']
+print(f"List gunung : " , gunung)
+print(f"Salah satu gunung di Indonesia adalah {gunung[1].title()}")
+gunung.append('merapi')
+print(f"List ditambah : ", gunung)
+gunung.insert(3, 'rinjani')
+print(f"List ditambah : ", gunung)
+del gunung[0]
+print(f"List hapus index 0 : ", gunung)
+popped_gunung = gunung.pop()
+print(f"List hapus paling belakang : ", gunung)
+gunung.remove('bromo')
+print(f"List hapus bromo : ", gunung)
+print(f"Dalam list terakhir terdapat {len(gunung)} gunung")
+print(f"List sorted temporarily : " , sorted(gunung))
+print(f"List asli : " , gunung)
+gunung.sort()
+print(f"List sorted permanent : " , gunung)
+gunung.sort(reverse=True)
+print(f"List sorted reverse : " , gunung)
+gunung.reverse()
+print(f"List reverse permnent : " , gunung)
+
