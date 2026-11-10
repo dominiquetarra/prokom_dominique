@@ -1,0 +1,3 @@
+In Python you can store text in variables
+In Python you can build lists and dictionaries
+In Python you can write functions
